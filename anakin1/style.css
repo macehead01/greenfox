@@ -1,0 +1,92 @@
+.head {
+  background: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  display: block;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  height: 400px;
+  width: 1300px;
+}
+
+.imgText {
+  font-family: "Abril Fatface", cursive;
+  position: absolute;
+  color: #333333;
+  /*margin-top: 0;
+    margin-bottom: 0;*/
+  font-size: 30px;
+  top: 265px;
+  left: 300px;
+}
+h1.h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h3.h3 {
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+
+/*eddig tart a fejléc*/
+
+.container {
+  width: 750px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+ul {
+  list-style-type: square;
+  font-size: 15px;
+}
+
+blockquote::before {
+  content: "”";
+  font-size: 80px;
+  position: absolute;
+  left: 0px;
+  top: -45px;
+  transform: rotate(180deg);
+}
+blockquote {
+  width: 900px;
+  height: auto;
+  background-color: #444444;
+  color: white;
+  font-size: 45px;
+  font-family: "Abril Fatface", cursive;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  /*text-align: center;*/
+  position: relative;
+}
+
+.capital {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-family: arial;
+}
+
+.italik {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font: italic;
+}
+
+hr.stile {
+  border: 2px solid black;
+  border-radius: 5px;
+}
