@@ -1,0 +1,14 @@
+.big{
+    color:blue;
+  }
+  .container div{
+    border:1px solid green;
+    width:200px;
+  }
+  div.b326, div.b329, div#b325{
+    font-weight: bold;
+  }
+  p{
+    background-color:yellow;
+    width:200px;
+  }
