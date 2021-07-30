@@ -1,0 +1,28 @@
+.item{
+    width: 50px;
+    height: 50px;
+  background-color: blue;
+  margin: 10px;
+  }
+.item2{
+    width: 50px;
+    height: 50px;
+  background-color: purple;
+  margin: 10px;
+  }
+  
+  .container {
+      align-content: center;
+    width: 700px;
+    display: flex;
+    margin: 20px;
+    border: 1px solid black;
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+    }
+    #no1{
+        background-color: white;
+    }
+    #no2{
+        background-color: orange;
+    }
